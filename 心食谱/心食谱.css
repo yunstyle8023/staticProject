@@ -1,0 +1,306 @@
+/*
+* @Author: Administrator
+* @Date:   2017-08-11 16:52:59
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-08-12 22:09:50
+*/
+*{
+	padding: 0;
+	margin: 0;
+	font-size: 13px;
+}
+ul{
+	list-style: none;
+	overflow: hidden;
+}
+li{
+	// float: left;
+}
+a{
+	text-decoration: none;
+}
+a:visited{
+
+}
+a:hover{
+color: 
+}
+a:active{
+
+}
+.clear::after{
+	display: block;
+	content: "";
+	clear: both;
+}
+.wraper{
+	width: 850px;
+	margin: 0 auto;
+}
+
+.head{
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+.head img{
+	width: 150px;
+	height: 50px;
+	float: left;
+}
+.head .inp{
+	float: left;
+	margin-left: 30px;
+}
+.head .inp1{
+width: 250px;
+height: 25px;
+}
+.head .inp2{
+width: 60px;
+height:28.2px;
+}
+.head-rgt{
+	float: right;
+	background-color: red;
+}
+.head-rgt div{
+	float:left;
+	padding-left: 30px;
+}
+.head-rgt .upload{
+background-image: url() no-repeat;
+}
+.head-rgt .ask{
+background-image: url() no-repeat;
+}
+.head-rgt .login{
+background-image: url() no-repeat;
+}
+.head-rgt .register{
+	background-image: url() no-repeat;
+}
+.bkd1{
+	background-image:url(images/ui-bg_gloss-wave_35_f6a828_500x100.png);
+}
+.nav li{
+	float: left;	
+	padding-top: 5px;
+}
+.nav li a{
+	color: white;
+	line-height:30px;
+	height: 30px; 
+	font-size: 15px;
+	margin: 5px 62px 5px 0;
+}
+
+.main{
+	width: 100%;
+	background-color: #fbfbfb;
+	padding-top: 10px;
+}
+.left{
+	float: left;
+	width: 550px;
+}
+.left table{
+	border-collapse:collapse;
+	border:1px solid #eee;
+}
+td{
+	width: 108px;
+	height: 38px;
+	padding-left: 10px;
+	border:1px solid #eee; 
+}
+.gt{
+	float: right;
+}
+.more{
+	float: right; 
+}
+.left  h2{
+	padding: 10px 0 5px;
+}
+.left hr{
+	color: 1px solid #eee;
+}
+
+.pic1{
+	float: left;
+	width: 360px;
+	height: 140px;
+}
+.pic1-rgt{
+	padding-left: 380px;
+	padding-top: 10px;
+}
+.chufang{
+	display: inline-block;
+	width:30px;
+	height:30px;  
+background-image: url(images/1474060820126.jpg);
+background-repeat: no-repeat;
+}
+.pic1-rgt a{
+font-size: 18px;
+}
+.food1{
+position: relative;
+border:1px solid #eee;
+}
+.ok{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.ul{
+	// display:-webkit-flex;
+	display: flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	// align-items:space-between;
+}
+
+.ul li div{
+	padding-left: 10px;
+}
+.ul li img{
+	width: 170px;
+}
+.ul li span{
+	display: inline-block;
+	width:30px;
+	height:30px;  
+}
+.ul li .sp1{
+	background-image: url("images/1474060820126.jpg");
+	background-repeat:no-repeat;
+}
+.ul li .sp2{
+	background-image: url("images/vip.png"); 
+	background-repeat:no-repeat;
+}
+
+.right{
+	float: right;
+}
+.right1{
+	width:270px;
+	border:1px solid #eee;
+}
+.fst{
+	width: 90%;
+	margin: 0 auto;
+	padding: 3px 0  0;
+	text-align: center;
+ background: rgba(0, 0, 0, 0) url(images/page_bg.gif) no-repeat scroll center -82px;
+}
+.right1  input,.right1 button{
+	display: block;
+	margin: 0 auto;
+	width: 250px;
+	height: 30px;
+	margin-top: 15px;
+}
+.sec input{
+	margin-top: 10px;
+}
+	
+.right1  a{
+	font-size: 15px;
+	float: right;
+	margin-right: 10px;
+	color: black;
+}
+.sec{
+	position: relative;
+}
+.thi{
+	position: relative;
+}
+.sec  .sp1,.thi .sp2{
+	display: inline-block;
+	width:30px;
+	height:30px;
+background-image: url("images/vip.png"); 
+	background-repeat:no-repeat;
+	position: absolute;
+	top:12px;
+	left:15px;
+}
+
+.fifth img,.sixth img{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+}
+.sev img{
+	display: block;
+	width: 20px;
+	height: 20px;
+	margin: 0px auto;
+}
+
+
+
+
+
+.right2{
+	width:270px;
+	border:1px solid #eee;
+	margin-top:20px;
+	padding-bottom: 20px;
+}
+.fst2{
+	width: 90%;
+	margin: 5px auto;
+	padding: 3px 0  0;
+	text-align: center;
+ background: rgba(0, 0, 0, 0) url(images/page_bg.gif) no-repeat scroll center -82px;
+}
+.right2 table{
+	border-collapse:collapse;
+	margin:0 auto;
+	text-align: center; 
+}
+.right2 td{
+	border:1px solid #eee;
+	margin-top: 3px;
+	border-top-width: 0px;
+	border-left-width: 0px;
+}
+.right2 td:nth-child(2){
+border-right-width: 0px;
+}
+
+
+.two-pic{
+	width: 90%;
+	margin: 0 auto;
+	display: flex;
+	justify-content:space-between;
+}
+.two-pic img{
+	width:20px;
+	height:20px;
+}
+.two-pic a{
+	background-color: gray;
+}
+.two-pic a:hover .two-pic{
+	background-color: #fa7e3e;
+}
+
+
+
+.foot{
+	background-color: green;
+}
+.foot .wraper{
+	background-color: red;
+}
+
