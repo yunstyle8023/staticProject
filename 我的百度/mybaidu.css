@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 80px;
+}
+header .ul1{
+    float:right;
+    width: 450px;
+    margin-top:10px;
+}
+header .ul1 li{
+    float:left;
+    margin-left: 18px;
+    height:30px;
+    list-style: none;
+    font:13px "宋体";
+    text-align: center;   	 
+}
+header .ul1 .ul1-li-setting {
+    position: relative;       
+}
+header .ul1 .ul1-li a{
+    margin: 0;
+    font-weight: 600;
+    color:black;
+}
+header .ul1 .ul1-li a:visited{  
+    color:black;
+}
+header .ul1  .ul1-li a:hover{
+    color:blue; 
+}
+header .ul1 .ul1-li a:active{
+    text-decoration: none;
+}
+header .ul1 .ul1-li .z1{
+    font-weight: normal;
+}
+header .ul1 .ul1-li .z2{
+    font-weight: normal;
+    position: absolute;
+    right:50px;
+    top:10px;
+}
+header .ul2 {
+    padding:0;
+    width:56px;
+    background: gray;
+    display:none;
+    text-align:center;
+    list-style: none;
+    position: absolute;
+    left:-15px;
+    top:20px;
+    border:1px solid #d1d1d1;
+ }
+header .ul2 li{
+    text-align: center;
+    padding:0;}
+header .ul2 a{
+    font-size:12px;
+    font-family:"黑体";
+    color:white;
+    display: block;
+    height:25px;
+    text-decoration: none;
+    line-height:25px;
+    }
+header .ul1-li-setting:hover .ul2{
+    display:block;
+}
+header .ul1-li-setting:hover .z2{
+    color:blue;
+    text-decoration: none;
+}
+header .ul2 a:hover{
+    background:#38f;
+}  
+header .ul1 .more-product{
+    position: relative;
+}
+header .ul1 .more-product .more{
+    background:#38f;
+    text-decoration: none;
+    padding:2px;
+    display:inline-block;
+    color:#fff;
+    font-family: "宋体";
+    font-size: 13px;
+}
+header .ul1 .more-product:hover .more_menu{
+    display: block;
+}
+header .ul1  .more_menu{
+    width: 60px;
+    padding:0; 
+    background: #f9f9f9;
+    position: absolute;
+    right: 0px;
+    top: 20px;
+    // min-height: 700px;
+    display: none;
+}
+//  header .ul1 .more_menu li:first-child {
+//     height:12px;
+//     padding-top: 30px;
+// }
+ header .ul1 .more_menu li{
+    display: block;
+    list-style: none;
+    width: 60px;
+    height: 76px;
+    vertical-align: middle;
+    text-align: center; 
+    margin: 0 auto;
+    border-bottom: 1px solid #ccc;
+}
+header .ul1 .more_menu li:last-child{
+    height:12px;
+    border-bottom: 0;
+}
+header .ul1 .more_menu li a{
+    text-decoration: none;
+    color: #666;
+    font-size: 12px;
+    font-weight: normal;
+}
+header .ul1 .more_menu li:hover a{
+    border-bottom: 1px solid #ccc;
+}
+header .ul1 .more_menu li a span{
+    display: block;
+    width: 36px;
+    height: 36px;
+    margin: 10px auto 5px;
+    background-image: url(images/bdbri_icons.png);
+    background-repeat: no-repeat;
+}
+.more-1{
+    background-position: 0 0;
+}
+.more-2{
+    width: 40px;
+    background-position: -72px 0;
+}
+.more-3{
+    background-position: -112px 0;
+}
+.more-4{
+    background-position: -36px 0;
+}
+.more-5{
+    background-position: -148px 0;
+}
+.more-6{
+    background-position: -184px 0;
+}      
+.content{
+    width: 100%;
+    height:260px;
+}
+.img1{
+    width:220px;
+    height:120px;
+    margin-bottom: 10px;
+}
+.content .sousuok{
+    font-size: 0;
+}
+.content .span0{
+    position:relative;
+    display:inline-block;
+    vertical-align: top;
+}
+.content .span1{
+    display:inline-block;
+    width:18px;
+    height:18px;
+    background-image: url(images/camera.png);
+    background-repeat: no-repeat;
+    cursor:pointer;
+    position:absolute;
+    top:5px;
+    right:5px;
+}
+.content .span1:hover{
+    background-position: 0  -20px;
+}
+.content .a{
+    height:24px;
+    width:360px;
+    border: 1px  solid #38f;
+}
+.content .b{
+    color:white;
+    height:25.6px;
+    width:60px;
+    background:#38f;
+    border:none;
+    vertical-align: top;
+    font-family: "宋体";
+    font-size: 15px；
+}
+.content .b:focus{
+    border:1px #38f;
+}
+.content .kong-box{
+    height:200px;
+}
+.footer{
+    width:100%;
+    height:150px;
+    font-size: 12px;
+}
+.footer .vv{ 
+    font-weight: bold;
+}
+.footer .x{
+    margin-left: 315px;
+    text-align: justify;
+}
+.x li{
+    float:left;
+    list-style: none;
+    margin-left: 20px;
+ }
+.x li a{
+    color:gray;
+}
+.img2{
+    margin-top: 30 px;
+    width:50px;
+    height:50px;
+}
+.footer .hh{
+    height:8px;
+}
+.footer  .y{
+    margin-left:210px; 
+    margin-bottom: 15px;
+}
+.y li{
+    float:left;
+    list-style: none;
+    margin-left: 4px; 
+    text-align:center;
+    text-valign:center;
+}
+.y li a,span{
+    color: gray;
+    text-align:center;
+    text-valign:center;
+}
+.img3{
+    width:10px;
+    height:13px;
+    align:center;
+    valign:center;
+}
+.img4{
+    width:10px;
+    height:13px;
+}
+
+
+
