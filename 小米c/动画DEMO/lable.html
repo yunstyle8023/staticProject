@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		#d{
+			display: none;
+		}
+		#a{
+			display: none;
+		}
+		.div1,.div2{
+			display: none;
+		}
+		label{
+			display: inline-block;
+			width: 10px;
+			height: 10px;
+			background: red;
+		}
+		#d:checked~.div1{
+			display: block;
+		}
+	/* 	#d:checked~.div2{
+			display: none;
+		} */
+		#a:checked~.div2{
+			display: block;
+		}
+		/* #a:checked~.div1{
+			display: none;
+		} */
+
+	</style>
+</head>
+<body>
+	<label for="d">
+	</label>
+	<input type="radio" name="a1" id="d" checked>
+	<div class="div1">出现1</div>
+	<label for="a">
+	</label>
+	<input type="radio" name="a1" id="a">
+	<div class="div2">出现2</div>
+	
+</body>
+</html>

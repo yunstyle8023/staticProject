@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+	#cc1{
+	display: none;
+	}
+	/* .div-1{
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		display: none;
+		
+		
+	}
+	@keyframes mymove{
+		0%{opacity: 1;}
+		100%{ opacity: 0; }
+
+	}
+	.div-2{
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		display: none;
+		
+		opacity: 0;
+	}
+	@keyframes all{
+		34%{ opacity: 0; }
+		66%{opacity: 1;}
+		100%{opacity: 0;}
+
+	}
+	.div-3{
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		
+		opacity: 0;
+	}
+	@keyframes zya{
+		75%{opacity: 0;}
+		100%{opacity: 1;}
+	}
+	#cc1:checked+div .div-1{
+		
+		animation: mymove 5s;
+		animation-fill-mode: forwards;
+	}
+	#cc1:checked+div .div-2{
+		animation: all 15s;
+		animation-fill-mode: forwards;
+	}
+	#cc1:checked+div .div-3{
+		animation: zya 20s;
+		animation-fill-mode: forwards;
+	} */
+	label{
+		display: inline-block;
+		width: 10px;
+		height: 10px;
+		border-radius: 180px; 
+		background-color: aqua;
+	}
+	.box{
+		position: relative;
+	}
+	#cc1:checked+label{
+		background-color: red;
+		transition: all .5s;
+		/* animation: zya 20s;
+		animation-fill-mode: forwards; */
+	} 
+	#cc1:checked~.box .img-2{
+		display: block;
+	}
+	.img-2,.img-1{
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		width: 200px;
+		height: 200px;
+	}
+	.img-2{
+		display: none;
+	}
+	/* .div-2{
+		float: left;
+	} */
+	</style>
+</head>
+<body>
+	<input name="radio-1" type="checkbox" id="cc1">  
+<label for="cc1" class="label">
+	
+	</label>
+	<div class="box">
+		<img src="1.png" alt="" class="img-1">
+		<img src="2.jpg" alt="" class="img-2">
+	</div>
+</body>
+</html>
